@@ -5,7 +5,7 @@ Setting a [Minecraft](https://www.minecraft.net) Server using [Docker](https://w
 ## Usage
 
 ```console
-docker-compose up -d
+docker-compose up -d bukkit
 ```
 
 Then fire up your Minecraft Java edition, connect to your server (here: `192.168.2.119`) and enjoy
@@ -15,6 +15,7 @@ Then fire up your Minecraft Java edition, connect to your server (here: `192.168
 
 ## References
 
+- [bbriggs/docker-bukkit](https://github.com/bbriggs/docker-bukkit)
 - [itzg/minecraft-server/](https://hub.docker.com/r/itzg/minecraft-server/)
 - [rlenferink/minecraft](https://hub.docker.com/r/rlenferink/minecraft)
 - [Kitematic tutorial: Set up a Minecraft server](https://docs.docker.com/kitematic/minecraft-server/)
