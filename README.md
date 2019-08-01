@@ -8,6 +8,11 @@ Setting a [Minecraft](https://www.minecraft.net) Server using [Docker](https://w
 docker-compose up -d
 ```
 
+Then fire up your Minecraft Java edition, connect to your server (here: `192.168.2.119`) and enjoy
+
+![Multiplayer](img/mc_1.jpg) ![Direct Connect](img/mc_2.jpg)
+![Server Ip](img/mc_3.jpg) ![Play](img/mc_4.jpg)
+
 ## References
 
 - [itzg/minecraft-server/](https://hub.docker.com/r/itzg/minecraft-server/)
