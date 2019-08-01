@@ -10,17 +10,17 @@ x-base: &base
   restart: ${DOCKER_RESTART:-unless-stopped}
 
 services:
-  minecraft:
-    <<: *base
-    build:
-      context: ./minecraft
-    ports: ['25565:25565', '25575:25575']
-    environment:
-      MC_VER: ${MC_VER:-1.14.4}
-      INIT_MEM: ${INIT_MEM:-2G}
-      MAX_MEM: ${MAX_MEM:-4G}
-    volumes:
-      - ./minecraft/data:/data
+  # minecraft:
+  #   <<: *base
+  #   build:
+  #     context: ./minecraft
+  #   ports: ['25565:25565', '25575:25575']
+  #   environment:
+  #     MC_VER: ${MC_VER:-1.14.4}
+  #     INIT_MEM: ${INIT_MEM:-2G}
+  #     MAX_MEM: ${MAX_MEM:-4G}
+  #   volumes:
+  #     - ./minecraft/data:/data
 
   bukkit:
     <<: *base
