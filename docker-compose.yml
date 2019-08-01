@@ -27,6 +27,8 @@ services:
     image: bbriggs/bukkit:${MC_VER:-1.14.4}
     ports: ['25565:25565', '25575:25575']
     env_file: bukkit.env
+    volumes:
+      - ./bukkit/data:/data
 
 #volumes:
 #  minecraft: {}
