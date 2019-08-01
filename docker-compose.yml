@@ -14,7 +14,7 @@ services:
     <<: *base
     build:
       context: ./minecraft
-    ports: ['25565:25565']
+    ports: ['25565:25565', '25575:25575']
     environment:
       MC_VER: ${MC_VER:-1.14.4}
       INIT_MEM: ${INIT_MEM:-2G}

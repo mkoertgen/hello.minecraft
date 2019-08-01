@@ -11,5 +11,5 @@ ENV MC_VER=1.14.4\
   MAX_MEM=4G
 
 VOLUME ["/data"]
-EXPOSE 25565
+EXPOSE 25565 25575
 CMD ["/start.sh"]
