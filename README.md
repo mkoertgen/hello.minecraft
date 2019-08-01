@@ -1,6 +1,6 @@
 # hello.minecraft
 
-Setting a [MineCraft](https://www.minecraft.net) Server using [Docker](https://www.docker.com/).
+Setting a [Minecraft](https://www.minecraft.net) Server using [Docker](https://www.docker.com/).
 
 ## Usage
 
